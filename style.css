@@ -1,0 +1,354 @@
+.items-navbar{
+    font-family: Viga;
+    font-weight: bold;
+    font-size: 32px;
+    
+}
+
+.container .navbar-brand, .nav-link{
+    color: black !important;
+}
+
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.home-container{
+    background-image: url(./bahan/braden-collum-9HI8UJMSdZA-unsplash.jpg);
+    background-size: cover;
+    height: 670px;
+
+}
+
+
+.homecolor{
+    color: white;
+    font-size: 78px;
+}
+
+.color-p-home{
+    font-size: 32px;
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    border: none !important;
+}
+
+.container-feature{
+    height: 600px;
+}
+
+.home-container .container-home{
+  margin-top: 150px !important;
+}
+
+.pricelist {
+    margin-top: 150px;
+  }
+  
+  .pricelist .card {
+    background: #eaf5eb;
+    border-radius: 50px;
+    border: 0;
+    padding: 64px;
+  }
+  
+  .pricelist .card .card-price {
+    border: 3px solid #232323;
+    border-radius: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .pricelist .card .card-price.active {
+    color: #079011;
+    border: 3px solid #079011;
+  }
+  
+  .pricelist .card .card-price ul {
+    min-height: 96.67px;
+  }
+  
+  .pricelist .card .card-price .btn-cta {
+    background-color: #232323;
+    color: #ffffff;
+    border-radius: 50rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+  }
+  
+  .pricelist .card .card-price.active .btn-cta {
+    background-color: #079011;
+  }
+  
+  .pricelist .card .card-price.active .harga {
+    color: #079011;
+  }
+  
+  .pricelist .card .card-price.active .mata-uang {
+    color: #079011;
+  }
+  
+  .harga {
+    font-size: 48px;
+    line-height: 0;
+    letter-spacing: -0.01em;
+    color: #232323;
+  }
+  
+  .mata-uang {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0;
+    letter-spacing: -0.01em;
+    color: #232323;
+  }
+  
+  .text-gray {
+    font-weight: 600;
+    font-size: 16px;
+    color: #728196;
+  }
+  
+  section.testimoni {
+    margin-top: 164px;
+  }
+
+  .btn-cta {
+    background-color: #079011;
+    color: #ffffff;
+    border-radius: 50rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+    z-index: 999;
+  }
+  
+  .btn-cta:hover {
+    background-color: #19b823;
+    color: #ffffff;
+  }
+  
+  .btn-pricelist {
+    background-color: transparent;
+    color: #232323;
+    border-radius: 50rem;
+    border: #232323 solid 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+  }
+  
+  .text-heading {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+  }
+  
+  .text-paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #728196;
+  }
+  
+  .light-green-overlay {
+    position: absolute;
+    top: -100px;
+    right: -125px;
+    z-index: -99;
+    width: 500px;
+    height: 500px;
+    background-color: #eaf5eb;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  .image-hero {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    z-index: -98;
+  }
+  
+  .mengapa-memilih-kami {
+    margin-top: 232px;
+  }
+  
+  .keluar-dari-zona-nyaman {
+    margin-top: 150px;
+  }
+  
+  .dapatkan-pekerjaan {
+    margin-top: 150px;
+  }
+  
+  .pricelist {
+    margin-top: 150px;
+  }
+  
+  .pricelist .card {
+    background: #eaf5eb;
+    border-radius: 50px;
+    border: 0;
+    padding: 64px;
+  }
+  
+  .pricelist .card .card-price {
+    border: 3px solid #232323;
+    border-radius: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .pricelist .card .card-price.active {
+    color: #079011;
+    border: 3px solid #079011;
+  }
+  
+  .pricelist .card .card-price ul {
+    min-height: 96.67px;
+  }
+  
+  .pricelist .card .card-price .btn-cta {
+    background-color: #232323;
+    color: #ffffff;
+    border-radius: 50rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+  }
+  
+  .pricelist .card .card-price.active .btn-cta {
+    background-color: #079011;
+  }
+  
+  .pricelist .card .card-price.active .harga {
+    color: #079011;
+  }
+  
+  .pricelist .card .card-price.active .mata-uang {
+    color: #079011;
+  }
+  
+  .harga {
+    font-size: 48px;
+    line-height: 0;
+    letter-spacing: -0.01em;
+    color: #232323;
+  }
+  
+  .mata-uang {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0;
+    letter-spacing: -0.01em;
+    color: #232323;
+  }
+  
+  .text-gray {
+    font-weight: 600;
+    font-size: 16px;
+    color: #728196;
+  }
+  
+  section.testimoni {
+    margin-top: 164px;
+  }
+  
+  .head-tesimoni {
+    font-weight: 600;
+    font-size: 24px;
+    color: #232323;
+    margin-bottom: 32px;
+  }
+  
+  .fill-testimoni {
+    font-weight: 600;
+    font-size: 20px;
+    color: #728196;
+    margin-bottom: 24px;
+  }
+
+@media (min-width: 992px) { 
+    
+    /* navbar */
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    
+    .container .navbar-brand, .nav-link{
+        color: white !important;
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid #0B63DC;
+    }
+
+    .home-container{
+        background-image: url(./bahan/braden-collum-9HI8UJMSdZA-unsplash.jpg);
+        background-size: cover;
+        height: 670px;
+        margin-top: -80px;
+    
+    }
+
+    .home-container .container-home{
+        margin-top: 150px !important;
+    }
+
+}
